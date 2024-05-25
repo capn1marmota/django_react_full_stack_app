@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
-const apiUrl = "/choreo-apis/awbo/backend/rest-api-be2/v1.0";
+const apiUrl = "https://4bbf4e53-3401-49f1-91d4-2eb0fd1c4122-dev.e1-us-east-azure.choreoapis.dev/djangoreactapp/backend/v1";
 
 const api = axios.create({
     baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
